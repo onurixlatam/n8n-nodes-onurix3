@@ -28,12 +28,6 @@ export class Onurix implements INodeType {
         required: true,
       },
     ],
-    requestDefaults: {
-      baseURL: "https://www.onurix.com/api/v1",
-      headers: {
-        "Content-Type": "application/x-www-form-urlencoded",
-      },
-    },
     properties: [
       {
         displayName: "Resource",
